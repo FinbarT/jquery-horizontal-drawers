@@ -1,5 +1,5 @@
 $(document).ready(
-	function() {
+    function() {
 
 		$("#education_drawer").hide();	
 	 	$("#career_drawer").hide();
