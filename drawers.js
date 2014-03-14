@@ -1,7 +1,7 @@
 $(document).ready(
 	function() {
 
-	    $("#education_drawer").hide();	
+		$("#education_drawer").hide();	
 	 	$("#career_drawer").hide();
 	    $("#contact_drawer").hide();
       
