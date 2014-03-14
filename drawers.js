@@ -4,8 +4,7 @@ $(document).ready(
         $("#education_drawer").hide();	
         $("#career_drawer").hide();
         $("#contact_drawer").hide();
-
-		$("#button_about_me").click(
+        $("#button_about_me").click(
             function() {
                 run("#about_me_drawer");
             }
@@ -31,5 +30,5 @@ $(document).ready(
 
 function run(drawer) {
     $(drawer).siblings(":visible").hide("slide", { direction: "left" }, 1000);
-   	$(drawer).delay(1000).show("slide", { direction: "left" },	1000);
+    $(drawer).delay(1000).show("slide", { direction: "left" },	1000);
 }
